@@ -1,0 +1,179 @@
+@import url("reset.css");
+
+h1,
+.page__ending {
+    color: rgb(41, 186, 99);
+}
+
+[href^="#first"],
+.first-part>h2 {
+    color: rgb(255, 0, 47);
+}
+
+[href^="#second"],
+.second-part>h2 {
+    color: rgb(255, 0, 187);
+}
+
+[href^="#third"],
+.third-part>h2 {
+    color: rgb(183, 0, 255);
+}
+
+[href^="#forth"],
+.forth-part>h2 {
+    color: rgb(72, 0, 255);
+}
+
+[href^="#fifth"],
+.fifth-part>h2 {
+    color: rgb(0, 170, 255);
+}
+
+[href^="#sixth"],
+.sixth-part>h2 {
+    color: rgb(0, 255, 251);
+}
+
+[href^="#seventh"],
+.seventh-part>h2 {
+    color: rgb(0, 255, 136);
+}
+
+[href^="#eighth"],
+.eighth-part>h2 {
+    color: rgb(17, 255, 0);
+}
+
+[href^="#nineth"],
+.nineth-part>h2 {
+    color: rgb(208, 255, 0);
+}
+
+[href^="#tenth"],
+.tenth-part>h2 {
+    color: rgb(255, 174, 0);
+}
+
+.page__introduction-part span {
+    color: rgb(148, 127, 255);
+}
+
+.page__introduction-part p {
+    color: rgb(165, 218, 33);
+}
+
+.page__introduction-text~p {
+    color: rgb(255, 127, 240);
+}
+
+.page__introduction-text+p {
+    color: rgb(255, 163, 127);
+}
+
+.page__list {
+    color: blue;
+}
+
+.first-part__text p,
+mark {
+    color: rgb(0, 149, 255);
+}
+
+.first-part__text-text span {
+    color: aqua;
+}
+
+.second-part__text {
+    color: blueviolet;
+}
+
+.second-part__text-text~p {
+    color: aquamarine;
+}
+
+.page__third-part {
+    color: blue;
+}
+
+.page__third-part mark {
+    color: rgb(0, 255, 132);
+}
+
+.third-part__text p {
+    color: rgb(226, 43, 116);
+}
+
+.third-part__text-text+.third-part__text-text {
+    color: aquamarine;
+}
+
+[class^="forth-part"] {
+    color: rgb(195, 255, 0);
+}
+
+
+.forth-part__text-text~.forth-part__text-text {
+    color: rgb(127, 255, 249);
+}
+
+.fifth-part__text>p>span {
+    color: blue;
+}
+
+.fifth-part__text>p>span+span {
+    color: rgb(0, 255, 149);
+}
+
+.fifth-part__text>p>mark {
+    color: chocolate;
+}
+
+.fifth-part__text>p>mark+mark {
+    color: rgb(30, 207, 210);
+}
+
+.sixth-part__text p {
+    color: rgb(212, 124, 16);
+}
+
+.sixth-part__text p+p {
+    color: rgb(16, 212, 140);
+}
+
+.sixth-part__text p+p+p {
+    color: rgb(153, 212, 16);
+}
+
+.sixth-part__text p+p+p+p {
+    color: rgb(212, 58, 16);
+}
+
+.seventh-part__text>p span {
+    color: blue;
+}
+
+.seventh-part__text>p span+span {
+    color: rgb(0, 183, 255);
+}
+
+.seventh-part__text>p span+span+span {
+    color: rgb(47, 255, 0);
+}
+
+.seventh-part__text>p span+span+span+span {
+    color: rgb(208, 255, 0);
+}
+
+.eighth-part__text p {
+    color: rgb(255, 0, 13);
+}
+
+.eighth-part__text p~p {
+    color: rgb(34, 0, 255);
+}
+
+.ninth-part__text p,
+.tenth-part__text p {
+    color: aqua;
+}
