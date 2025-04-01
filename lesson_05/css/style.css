@@ -1,0 +1,112 @@
+@import url("reset.css");
+
+@import url("fonts.css");
+
+body {
+    background-color: #231F8B;
+}
+
+.container {
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: 112px 0px;
+}
+
+.explore__titles-block {
+    margin-bottom: 70px;
+}
+
+.explore__above-title,
+.item__text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+}
+
+.explore__above-title {
+    font-weight: 700;
+    line-height: 1.71;
+    color: #5A54F2;
+    margin-bottom: 10px;
+}
+
+.item__text {
+    font-weight: 400;
+    line-height: 1.42;
+    color: #737373;
+}
+
+.explore__title,
+.explore__under-title,
+.item__title {
+    font-family: "Circular Std", sans-serif;
+    font-weight: 700;
+    color: #FFF;
+}
+
+.explore__title {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.explore__under-title {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42;
+    letter-spacing: 0.2px;
+    max-width: 765px;
+}
+
+.item__title {
+    font-size: 16px;
+    color: #252B42;
+    line-height: 1.5;
+    letter-spacing: 0.1px;
+
+}
+
+.management-block__container {
+    font-size: 0;
+    height: 360px;
+}
+
+.management-block__item-first,
+.management-block__item-second,
+.management-block__item-third,
+.management-block__item-forth {
+    display: inline-block;
+    width: 21.90%;
+    background-color: #FFF;
+    min-height: 288px;
+    padding: 35px 40px;
+}
+
+.management-block__item-third {
+    background-color: #5A54F2;
+}
+
+.management-block__item-third div {
+    color: #FFF;
+}
+
+.item__img-main,
+.item__title,
+.item__decoration {
+    margin-bottom: 20px;
+}
+
+.management-block__item-first,
+.management-block__item-second,
+.management-block__item-third {
+    margin-right: 43px;
+}
+
+.management-block__item-first,
+.management-block__item-third {
+    margin: 0px 43px 72px 0px;
+}
+
+.management-block__item-second,
+.management-block__item-forth {
+    vertical-align: bottom;
+}
