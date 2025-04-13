@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script:regular,700" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Poppins:regular,700" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Inter:regular,600,700" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css">
+  <title>Lesson 07 DZ</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <div class="header__title-container">
+        <h1 class="header__title-text"> Lesson 7 CSS Pseudo-classes and pseudo-elements</h1>
+      </div>
+    </header>
+    <main>
+      <div class="lesson__state state">
+        <div class="state__block">
+          <div class="state__card">
+            <div class="state__item-hover">
+              <div class="state__item-text">
+                <a href="#">HOVER</a>
+              </div>
+            </div>
+          </div>
+          <div class="state__card">
+            <div class="state__item-active">
+              <div class="state__item-text">
+                <a href="#">ACTIVE</a>
+              </div>
+            </div>
+          </div>
+          <div class="state__card">
+            <div class="state__item-visited">
+              <div class="state__item-text">
+                <a href="https://www.google.com">VISITED</a>
+              </div>
+            </div>
+          </div>
+          <div class="state__card">
+            <div class="state__item-focus">
+              <div class="state__item-text">
+                <a href="#target">FOCUS</a>
+              </div>
+            </div>
+          </div>
+          <div class="state__card">
+            <div class="state__item-target">
+              <div class="state__item-text">
+                <a href="#target">TARGET</a>
+                <div class="target-visible">
+                  <div class="target-visible-inner" id="target">Now it is visible</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="lesson__position position">
+        <div class="positional__block">
+          <div class="first__child">
+            <div class="first__child-label label"> first child </div>
+            <div class="first__child-square square">
+              <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+              </ul>
+            </div>
+          </div>
+          <div class="last__child">
+            <div class="last__child-label label"> last child </div>
+            <div class="last__child-square square">
+              <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+              </ul>
+            </div>
+          </div>
+          <div class="nth__child">
+            <div class="nth__child-label label"> nth child (4)</div>
+            <div class="nth__child-square square">
+              <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+              </ul>
+            </div>
+          </div>
+          <div class="nth__last-child">
+            <div class="nth__last-child-label label"> nth last child</div>
+            <div class="nth__last-child-square square">
+              <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+              </ul>
+            </div>
+          </div>
+          <div class="nth__child">
+            <div class="nth__child-odd-label label"> nth child odd</div>
+            <div class="nth__child-odd-square square">
+              <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+              </ul>
+            </div>
+          </div>
+          <div class="nth__child">
+            <div class="nth__child-even-label label"> nth child even</div>
+            <div class="nth__child-even-square square">
+              <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="lesson__elements elements">
+        <div class="elements__list-before">
+          <ul>
+            <li>Item 1 - before</li>
+            <li>Item 2 - before</li>
+            <li>Item 3 - before</li>
+          </ul>
+        </div>
+        <div class="elements__list-after">
+          <ul>
+            <li>Item 1 - after</li>
+            <li>Item 2 - after</li>
+            <li>Item 3 - after</li>
+          </ul>
+        </div>
+      </div>
+      <div class="meet-block">
+        <div class="meet__container">
+          <div class="meet__title"> Meet our <span>Professional Faculty </span>
+          </div>
+          <div class="meet__cards">
+            <div class="cards__container">
+              <div class="card__item">
+                <div class="card__image">
+                  <img src="img/image1.png" alt="Albert Flores photo">
+                </div>
+                <div class="card__title"> Albert Flores </div>
+                <div class="card__text"> Founder of FeatherDev Academy Masters in Finance | University of New York </div>
+                <div class="card__read"> Read more </div>
+              </div>
+              <div class="card__item">
+                <div class="card__image">
+                  <img src="img/image2.png" alt="Arlene McCoy photo">
+                </div>
+                <div class="card__title"> Arlene McCoy</div>
+                <div class="card__text"> 15 Year + Experience in Teaching and Former RBI Grade B Employee. Have Qualified USMLE Mains twice and is just like a knowledge book of Economics. </div>
+                <div class="card__read"> Read more </div>
+              </div>
+              <div class="card__item">
+                <div class="card__image">
+                  <img src="img/image3.png" alt="Annette Black photo">
+                </div>
+                <div class="card__title"> Annette Black</div>
+                <div class="card__text"> 10 Year + Experience in Teaching and Former Civil Servant. Specialized in teaching History and no student wants to miss their class.</div>
+                <div class="card__read"> Read more </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="faculty-block">
+        <div class="faculty__container">
+          <div class="faculty__title"> Best Faculty from New York is <span> Now Available in California! </span>
+          </div>
+          <div class="faculty__text"> Our Faculty is common in all the branches which helps us to maintain the quality education across India. Now there is no need to go anywhere! </div>
+          <div class="faculty__list">
+            <ul>
+              <li>Learn from Top Educators in your city</li>
+              <li>Regular Classes & Doubt Solving</li>
+              <li>300+ Selections in 2022-2023 Batch</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="game-block">
+        <div class="game__container">
+          <div class="game__title"> Game - help Kung Fu Panda take a bowl!!! </div>
+          <div class="game__img">
+            <img src="img/panda_kung_fu.png" alt="kung fu panda">
+          </div>
+          <div class="game__box">
+            <div class="game__zero-step">START </div>
+            <div class="game__step-one"> One !!! </div>
+            <div class="game__step-two"> Two !!! </div>
+            <div class="game__step-three"> Three !!!</div>
+            <div class="game__step-four"> Four !!! </div>
+            <div class="game__step-five"> Five !!! </div>
+            <div class="game__final">
+              <img src="img/panda_kung_fu_3.webp" alt="panda kung fu">
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer"> Kisilyova Yulia &#169;</div>
+    </footer>
+  </div>
+</body>
+
+</html>
